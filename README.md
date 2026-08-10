@@ -1,61 +1,62 @@
-# Unlimitec AI, Herkunftsnachweis
+# Herkunftsnachweis von Unlimitec AI
 
-Hier veröffentliche ich täglich den Kopf meiner Herkunftsketten und lasse ihn
-unabhängig zeitstempeln. Wer wissen will, ob ich Einträge nachträglich verändert
-habe, kann das hier selbst nachrechnen, ohne mir glauben zu müssen.
+Wenn eine KI Texte für ein Unternehmen schreibt, sollte sich später nachvollziehen
+lassen, woher sie stammen. Genau dafür ist dieses Verzeichnis da.
 
-Unlimitec AI erzeugt Texte mit künstlicher Intelligenz. Jeder erzeugte Inhalt
-wird im Moment seiner Entstehung in einem Herkunftsregister erfasst, mit einem
-digitalen Fingerabdruck und dem Zeitpunkt. Die Einträge sind fortlaufend
-miteinander verkettet: Jeder Eintrag trägt die Prüfsumme seines Vorgängers.
-Diese Verkettung hat einen Kopf, und genau der steht hier.
+Bei Unlimitec AI wird jeder erzeugte Inhalt im Moment seiner Entstehung in einem
+Herkunftsregister erfasst, mit einem digitalen Fingerabdruck und dem Zeitpunkt.
+Die Einträge sind fortlaufend miteinander verbunden: Jeder trägt die Prüfsumme
+seines Vorgängers, so wie Glieder einer Kette. Am Ende dieser Kette steht ein
+einzelner Wert, der von allem davor abhängt. Diesen Wert veröffentliche ich hier
+täglich und lasse ihn unabhängig mit einem Zeitstempel versehen.
 
-## Was hier NICHT steht
+Der Sinn dahinter ist einfach. Das Register liegt in meiner Datenbank, und wer
+darauf vollen Zugriff hat, könnte es nachträglich verändern. Auch ich. Ein
+veröffentlichter und extern datierter Wert schließt diese Lücke, denn er entsteht
+außerhalb meines Zugriffs. Sie müssen mir also nicht glauben, Sie können es
+nachrechnen.
 
-Das ist mir wichtiger als alles andere auf dieser Seite:
+## Was hier nicht steht
 
-- **Keine Kundendaten.** Kein Name, keine Firma, keine Kennung.
-- **Keine Texte.** Weder ganz noch in Auszügen.
-- **Keine Fingerabdrücke einzelner Inhalte.** Niemand kann hier einen Text
-  abgleichen oder herausfinden, was erzeugt wurde.
-- **Keine Geschäftszahlen.** Auch nicht, wie viele Einträge es gibt.
+Das ist mir genauso wichtig wie der Nachweis selbst. In diesen Dateien finden
+sich keine Kundendaten, keine Namen, keine Firmen. Es stehen dort auch keine
+Texte, weder vollständig noch in Auszügen, und keine Fingerabdrücke einzelner
+Inhalte. Niemand kann hier nachsehen, was für wen erzeugt wurde. Und es stehen
+keine Geschäftszahlen darin, auch nicht, wie viele Einträge das Register führt.
 
-In jeder Datei stehen vier Zeilen: welche Kette, welches Datum, der Kopf-Hash
-und die Version des Verfahrens. Aus einem SHA-256-Wert lässt sich nichts
-zurückrechnen.
+Jede Datei enthält vier Zeilen: um welche Kette es geht, das Datum, den Wert am
+Ende der Kette und die Version des Verfahrens. Aus einer solchen Prüfsumme lässt
+sich nichts zurückrechnen.
 
-## Die zwei Ketten
+## Die beiden Ketten
 
-- `anker/content/` — erzeugte Texte
-- `anker/voice/` — erzeugte Sprachaufnahmen
+Unter `anker/content` liegen die Nachweise für erzeugte Texte, unter `anker/voice`
+die für erzeugte Sprachaufnahmen.
 
-## Selbst prüfen
+## Wie Sie das selbst prüfen können
 
-Zu jeder Ankerdatei liegt eine `.ots`-Datei. Das ist ein Zeitnachweis nach dem
-offenen OpenTimestamps-Verfahren, verankert in der Bitcoin-Blockchain. Er belegt,
-dass die Ankerdatei zu diesem Zeitpunkt bereits genau so existierte. Prüfen kann
-das jeder, auch ohne mich:
+Zu jeder Ankerdatei gehört eine Datei mit der Endung `.ots`. Das ist ein
+Zeitnachweis nach dem offenen OpenTimestamps-Verfahren, verankert in der
+Bitcoin-Blockchain. Er belegt, dass die Ankerdatei zu diesem Zeitpunkt bereits
+genau so vorlag. Prüfen kann das jeder, auch ohne mich:
 
 ```
 pip install opentimestamps-client
 ots verify anker/content/2026-08-10.txt.ots
 ```
 
-Wird an der Ankerdatei auch nur ein Zeichen verändert, meldet die Prüfung
-`File does not match original!`.
+Wurde an der Ankerdatei auch nur ein einziges Zeichen verändert, meldet die
+Prüfung, dass die Datei nicht mehr zum Nachweis passt.
 
-## Warum das nötig ist
+## Woher das kommt
 
-Ein Register, das nur der Betreiber führt, beweist wenig: Wer alle Rechte an der
-Datenbank hat, könnte es umschreiben. Genau diese Lücke schließt die
-Veröffentlichung. Der Zeitstempel entsteht außerhalb meines Zugriffs, deshalb
-lässt sich nachträgliches Umschreiben erkennen, auch bei mir selbst.
+Unlimitec AI hat den europäischen Verhaltenskodex zur Transparenz KI-generierter
+Inhalte unterzeichnet, Abschnitt 1 für Anbieter. Wie die Kennzeichnung insgesamt
+funktioniert und was Unternehmen selbst beachten müssen, habe ich auf meiner
+Website beschrieben:
 
-## Hintergrund
+- <https://www.unlimitecai.com/ki-transparenz>
+- <https://www.unlimitecai.com/ki-verordnung>
 
-Unlimitec AI hat den EU-Verhaltenskodex zur Transparenz KI-generierter Inhalte
-unterzeichnet (Abschnitt 1, Anbieter). Wie die Kennzeichnung insgesamt
-funktioniert, steht auf <https://www.unlimitecai.com/ki-transparenz>.
-
-Dieses Verzeichnis wird automatisch befüllt. Fragen dazu:
-<https://www.unlimitecai.com/kontakt>
+Dieses Verzeichnis wird automatisch befüllt. Wenn Sie Fragen dazu haben, erreichen
+Sie mich über <https://www.unlimitecai.com/kontakt>.
