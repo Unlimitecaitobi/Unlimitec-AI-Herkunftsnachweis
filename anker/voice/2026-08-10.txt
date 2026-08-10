@@ -1,0 +1,5 @@
+kette: voice
+datum: 2026-08-10
+head_link_hash: 730b56e2f192baaa1ff5f84835001b6112c1c0d2be5320688907f4eea8885cc3
+head_chain_seq: 1
+ketten_version: v1
