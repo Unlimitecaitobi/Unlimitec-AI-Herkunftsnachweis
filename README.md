@@ -15,6 +15,10 @@ zurückrechnen.
 
 Zwei Ordner, einer je Register. `content` für Texte, `voice` für Sprachaufnahmen.
 
+Die Ordner heißen genau so, in Kleinbuchstaben. Zeigt Ihr Browser stattdessen
+"Inhalt" und "Stimme" an, übersetzt er die Seite automatisch. Für die Prüfung
+zählen die echten Namen, also `content` und `voice`.
+
 Darin liegt für jeden Tag ein Paar aus zwei Dateien. Beide werden gebraucht:
 
 | Datei | Beantwortet die Frage |
