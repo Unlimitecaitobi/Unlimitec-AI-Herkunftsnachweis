@@ -1,0 +1,5 @@
+kette: content
+datum: 1999-01-01
+kopf_hash: 0000000000000000000000000000000000000000000000000000000000000000
+ketten_version: v1
+hinweis: PRUEFEINTRAG 11.08.2026 -- kein Betriebstag, dient dem Nachweis des Nachholpfads
