@@ -3,9 +3,12 @@
 Wenn eine KI für Sie schreibt, sollten Sie belegen können, wann das geschah.
 
 Hier liegt der öffentliche Teil meines Registers. Es hält fest, wann bei
-Unlimitec AI Inhalte durch künstliche Intelligenz entstanden sind. Jeden Tag
-bekommt der Stand dieses Registers einen unabhängigen Zeitstempel, den jeder
-nachprüfen kann und den auch ich nicht mehr verändern kann.
+Unlimitec AI Inhalte durch künstliche Intelligenz entstanden sind. Der Stand dieses Registers
+wird täglich mit einem unabhängigen Zeitstempel versehen. Ist er einmal in der
+Bitcoin-Blockchain verankert, kann ihn auch ich nicht mehr verändern.
+
+Die Reihe beginnt am 10.08.2026 und ist im Aufbau. Wie weit sie trägt, sehen Sie
+an den vorhandenen Dateien, nicht an dieser Beschreibung.
 
 **Was hier nicht steht:** keine Kundendaten, keine Texte, keine Fingerabdrücke
 einzelner Inhalte, keine Geschäftszahlen. Aus einer Prüfsumme lässt sich nichts
