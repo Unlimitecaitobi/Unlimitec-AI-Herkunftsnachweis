@@ -7,6 +7,10 @@ Unlimitec AI Inhalte durch künstliche Intelligenz entstanden sind. Der Stand di
 wird täglich mit einem unabhängigen Zeitstempel versehen. Ist er einmal in der
 Bitcoin-Blockchain verankert, kann ihn auch ich nicht mehr verändern.
 
+Das gilt für den Zeitnachweis selbst: Die `.ots`-Datei hängt an der Blockchain,
+nicht an dieser Seite. Wer sie einmal heruntergeladen hat, kann sie prüfen,
+unabhängig davon, was hier später steht.
+
 Die Reihe beginnt am 10.08.2026 und ist im Aufbau. Wie weit sie trägt, sehen Sie
 an den vorhandenen Dateien, nicht an dieser Beschreibung.
 
