@@ -14,7 +14,7 @@ geprüft oder verschweigt sie. Beides wäre ein schlechteres Zeichen.
 | 11.08.2026 | Erkennung | Neu. Vor jedem Tagesnachweis wird geprüft, ob der zuletzt beglaubigte Stand noch Teil der Kette ist. |
 | 11.08.2026 | Abdeckung | Behoben. Zwei Wege, auf denen Kunden Texte ablegen, sicherten den Nachweis erst nach dem Speichern. Jetzt entsteht kein Text ohne Nachweis. |
 | 11.08.2026 | Zuordnung | Behoben. Zwei Kunden mit gleichlautendem Text konnten denselben Registereintrag erhalten. Jeder Kunde bekommt jetzt einen eigenen. |
-| 11.08.2026 | Signatur | Behoben. Bestimmte Sonderzeichen in den Beschreibungsfeldern konnten zwei verschiedene Einträge ununterscheidbar machen. Sie werden abgewiesen. |
+| 11.08.2026 | Signatur | Behoben. Eine Sonderform in den Beschreibungsfeldern konnte zwei Einträge ununterscheidbar machen. |
 | 11.08.2026 | Unveränderlichkeit | Neu. Diese Seite ist gegen nachträgliches Umschreiben ihrer Historie geschützt; geprüft durch einen bewusst herbeigeführten Versuch. |
 | 11.08.2026 | Darstellung | Behoben. Eine Kette ohne Inhalt wird nicht mehr beglaubigt. Sie sah nach einem laufenden Register aus, wo nur ein Anfang stand. |
 | 11.08.2026 | Anker-Protokoll | Behoben. Ein ausgefallener Tagesanker lässt sich jetzt nachholen, statt dauerhaft als Lücke stehenzubleiben. |
