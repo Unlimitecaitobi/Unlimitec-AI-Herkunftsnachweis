@@ -1,4 +1,4 @@
-# Herkunftsnachweis von Unlimitec AI
+# Herkunftsnachweis von Unlimitec AI™
 
 Wenn eine KI für Sie schreibt, sollten Sie belegen können, wann das geschah.
 
