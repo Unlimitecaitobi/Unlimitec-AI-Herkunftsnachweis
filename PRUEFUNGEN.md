@@ -35,6 +35,20 @@ Was die Prüfung bestätigt hat, gehört ebenso hierher: Die Kette rechnet fehle
 und der Tagesnachweis vom 10.08.2026 trägt drei voneinander unabhängige Bestätigungen aus
 der Bitcoin-Blockchain.
 
+## Spuren der Prüfungen in dieser Historie
+
+Prüfungen hinterlassen hier absichtlich Spuren, statt weggeräumt zu werden.
+
+Zwei Einträge vom 11.08.2026 mit den Bezeichnungen **„Probe: Anhang-Push nach
+Regelsatz"** und **„Probe entfernt"** stammen aus dem Nachweis, dass der Schutz
+gegen nachträgliches Umschreiben wirkt und der tägliche Nachweis trotzdem
+weiterlaufen kann. Die Probedatei wurde durch einen neuen Eintrag entfernt, nicht
+durch Umschreiben der Historie.
+
+Ebenso liegt unter `content/` ein Nachweis mit dem Datum **1999-01-01**. Es ist
+kein Betriebstag; er belegt, dass ein ausgefallener Tagesnachweis nachgeholt
+werden kann.
+
 ## Beginn der Beweiskette
 
 Die Beweiskette beginnt am **10.08.2026**. Alles davor ist Bauphase und kein

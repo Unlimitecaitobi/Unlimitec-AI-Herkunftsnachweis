@@ -58,8 +58,27 @@ laufenden Tages kann deshalb noch allein kalenderbestätigt sein.
 
 Für die vollständige Prüfung gegen die Blockchain greift `ots verify` auf einen
 Bitcoin-Knoten zu. Wer keinen betreibt, sieht eine entsprechende Meldung. Der
-Nachweis ist deswegen nicht ungültig. Er lässt sich auch über einen öffentlichen
-Block-Explorer nachvollziehen.
+Nachweis ist deswegen **nicht ungültig** — er lässt sich ohne Knoten in drei
+Schritten nachvollziehen:
+
+```
+ots info content/2026-08-10.txt.ots
+```
+
+Die Ausgabe nennt für jede Bestätigung die Blocknummer und den zugehörigen
+Merkle-Root, zum Beispiel:
+
+```
+verify BitcoinBlockHeaderAttestation(961896)
+# Bitcoin block merkle root 9383179a8ad7467cf2cbb0e6e57aa3a3d798c3d7914e02aa578132aaed5c93ed
+```
+
+Diese Blocknummer in einem beliebigen Block-Explorer aufrufen und den dort
+angezeigten Merkle-Root mit dem obigen vergleichen. Stimmen beide überein, ist
+belegt: Die Datei existierte, bevor dieser Block entstand.
+
+Der Nachweis vom 10.08.2026 trägt drei solcher Bestätigungen aus
+unterschiedlichen Blöcken.
 
 ## Warum ich das mache
 
