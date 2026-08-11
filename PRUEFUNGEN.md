@@ -1,7 +1,7 @@
 # Prüfungen und Korrekturen
 
 Dieses Register wird regelmäßig geprüft. Was dabei gefunden und behoben wird,
-steht hier — mit Datum und Kategorie, ohne technische Einzelheiten.
+steht hier, mit Datum und Kategorie, ohne technische Einzelheiten.
 
 Warum ohne Einzelheiten: Eine genaue Fehlerbeschreibung wäre eine Anleitung.
 Warum überhaupt: Ein Register, das nie eine Korrektur zeigt, wurde entweder nie
@@ -18,5 +18,5 @@ geprüft oder verschweigt sie. Beides wäre ein schlechteres Zeichen.
 
 Zum Nachweis, dass die Korrekturen wirken, werden bewusst Fehlerfälle
 herbeigeführt. Solche Prüfläufe tragen ein Datum, das kein Betriebstag sein
-kann — etwa **1999-01-01**. Sie bleiben im Register stehen, weil nichts daraus
+kann, etwa **1999-01-01**. Sie bleiben im Register stehen, weil nichts daraus
 entfernt wird. Sie sind kein Betriebsvorgang und beweisen keinen Inhalt.
