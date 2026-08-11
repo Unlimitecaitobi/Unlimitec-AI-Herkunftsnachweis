@@ -58,7 +58,7 @@ laufenden Tages kann deshalb noch allein kalenderbestätigt sein.
 
 Für die vollständige Prüfung gegen die Blockchain greift `ots verify` auf einen
 Bitcoin-Knoten zu. Wer keinen betreibt, sieht eine entsprechende Meldung. Der
-Nachweis ist deswegen **nicht ungültig** — er lässt sich ohne Knoten in drei
+Nachweis ist deswegen **nicht ungültig**. Er lässt sich ohne Knoten in drei
 Schritten nachvollziehen:
 
 ```
