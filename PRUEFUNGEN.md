@@ -16,7 +16,21 @@ geprüft oder verschweigt sie. Beides wäre ein schlechteres Zeichen.
 
 ## Prüfeinträge
 
+## Beginn der Beweiskette
+
+Die Beweiskette beginnt am **10.08.2026**. Alles davor ist Bauphase und kein
+Beweismaterial: Beim Aufbau liefen Belastungstests gegen die Registertabelle
+selbst und hinterließen 52 Testglieder, die am selben Tag entfernt und der
+Zähler zurückgesetzt wurde. Das geschah **vor dem ersten Zeitstempel**, es
+wurde also kein beglaubigter Nachweis entwertet. Seither gilt: nichts wird
+entfernt.
+
+Dass Belastungstests nie wieder gegen die scharfe Registertabelle laufen, ist
+seitdem feste Regel.
+
+## Prüfeinträge
+
 Zum Nachweis, dass die Korrekturen wirken, werden bewusst Fehlerfälle
 herbeigeführt. Solche Prüfläufe tragen ein Datum, das kein Betriebstag sein
-kann, etwa **1999-01-01**. Sie bleiben im Register stehen, weil nichts daraus
-entfernt wird. Sie sind kein Betriebsvorgang und beweisen keinen Inhalt.
+kann, etwa **1999-01-01**. Sie bleiben im Register stehen, weil seit dem
+10.08.2026 nichts daraus entfernt wird. Sie sind kein Betriebsvorgang und beweisen keinen Inhalt.
