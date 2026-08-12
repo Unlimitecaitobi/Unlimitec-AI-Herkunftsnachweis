@@ -7,13 +7,21 @@ Warum ohne Einzelheiten: Eine genaue Fehlerbeschreibung wäre eine Anleitung.
 Warum überhaupt: Ein Register, das nie eine Korrektur zeigt, wurde entweder nie
 geprüft oder verschweigt sie. Beides wäre ein schlechteres Zeichen.
 
+Zur Häufung an einzelnen Tagen: Das sind Prüftage, keine Störungstage. An einem
+Tag, an dem das Register vollständig durchgesehen wird, kommen mehr Befunde
+zusammen als in Wochen des Betriebs. Genau dafür sind solche Tage da.
+
 | Datum | Kategorie | Ergebnis |
 |---|---|---|
-| 11.08.2026 | Zugriffsschutz | Behoben. Die Auskunft, ob ein Text hier erzeugt wurde, war für angemeldete Nutzer nicht auf die eigenen Inhalte begrenzt. Sie ist es jetzt. |
+| 12.08.2026 | Beglaubigung | Behoben. Die Prüfung, ob der zuletzt beglaubigte Stand noch Teil der Kette ist, konnte unbemerkt ausfallen. Jetzt entsteht ohne sie kein Tagesnachweis. |
+| 12.08.2026 | Unveränderlichkeit | Behoben. Der Schutz eines bereits beglaubigten Tagesnachweises stützte sich auf eine einzelne Quelle. Jetzt genügt eine von zweien, um ihn unantastbar zu halten. |
+| 12.08.2026 | Prüfbarkeit | Behoben. Ein Prüfwerkzeug wertete ein neu hinzugekommenes Feld nicht aus und meldete deshalb einen korrekten Eintrag als fehlerhaft. |
+| 12.08.2026 | Nachweisform | Neu. Die Einträge tragen jetzt zusätzlich das Verfahren, nach dem sie signiert wurden. Das ist die Vorbereitung darauf, dass Dritte die Signaturen künftig selbst nachrechnen können. |
+| 11.08.2026 | Zugriffsschutz | Behoben. Eine interne Auskunftsfunktion war weiter gefasst als nötig. Sie ist jetzt auf den jeweils eigenen Bestand begrenzt. |
 | 11.08.2026 | Beglaubigung | Behoben. Der Tagesnachweis wurde auch dann erstellt, wenn die Signaturen nicht geprüft werden konnten. Jetzt entsteht in diesem Fall kein Nachweis. |
 | 11.08.2026 | Erkennung | Neu. Vor jedem Tagesnachweis wird geprüft, ob der zuletzt beglaubigte Stand noch Teil der Kette ist. |
 | 11.08.2026 | Abdeckung | Behoben. Zwei Wege, auf denen Kunden Texte ablegen, sicherten den Nachweis erst nach dem Speichern. Jetzt entsteht kein Text ohne Nachweis. |
-| 11.08.2026 | Zuordnung | Behoben. Zwei Kunden mit gleichlautendem Text konnten denselben Registereintrag erhalten. Jeder Kunde bekommt jetzt einen eigenen. |
+| 11.08.2026 | Zuordnung | Behoben. Zwei Vorgänge konnten unter Umständen demselben Eintrag zugeordnet werden. Die Zuordnung ist jetzt eindeutig. |
 | 11.08.2026 | Signatur | Behoben. Eine Sonderform in den Beschreibungsfeldern konnte zwei Einträge ununterscheidbar machen. |
 | 11.08.2026 | Unveränderlichkeit | Neu. Diese Seite ist gegen nachträgliches Umschreiben ihrer Historie geschützt; geprüft durch einen bewusst herbeigeführten Versuch. |
 | 11.08.2026 | Darstellung | Behoben. Eine Kette ohne Inhalt wird nicht mehr beglaubigt. Sie sah nach einem laufenden Register aus, wo nur ein Anfang stand. |
@@ -21,8 +29,6 @@ geprüft oder verschweigt sie. Beides wäre ein schlechteres Zeichen.
 | 11.08.2026 | Unveränderlichkeit | Behoben. Der Schutz gegen nachträgliche Änderungen erfasst jetzt auch künftig hinzukommende Felder. |
 | 11.08.2026 | Prüfbarkeit | Neu. Die Signaturen der Einträge werden nachgerechnet, nicht nur erzeugt. |
 | 10.08.2026 | Beweisführung | Behoben. Ein Doppellauf am selben Tag kann kein widersprüchliches Beweispaar mehr veröffentlichen. |
-
-## Prüfeinträge
 
 ## Woher die Prüfungen kommen
 
