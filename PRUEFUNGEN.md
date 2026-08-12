@@ -11,13 +11,18 @@ Zur Häufung an einzelnen Tagen: Das sind Prüftage, keine Störungstage. An ein
 Tag, an dem das Register vollständig durchgesehen wird, kommen mehr Befunde
 zusammen als in Wochen des Betriebs. Genau dafür sind solche Tage da.
 
+Die Beweiskette begann am 10.08.2026. Die ersten Tage danach waren Aufbauphase
+mit vollständiger Durchsicht, und die Liste liest sich entsprechend dicht. Wer
+sie mit einem laufenden Jahresbetrieb vergleicht, vergleicht zwei verschiedene
+Dinge.
+
 | Datum | Kategorie | Ergebnis |
 |---|---|---|
 | 12.08.2026 | Beglaubigung | Behoben. Die Prüfung, ob der zuletzt beglaubigte Stand noch Teil der Kette ist, konnte unbemerkt ausfallen. Jetzt entsteht ohne sie kein Tagesnachweis. |
 | 12.08.2026 | Unveränderlichkeit | Behoben. Der Schutz eines bereits beglaubigten Tagesnachweises stützte sich auf eine einzelne Quelle. Jetzt genügt eine von zweien, um ihn unantastbar zu halten. |
 | 12.08.2026 | Prüfbarkeit | Behoben. Ein Prüfwerkzeug wertete ein neu hinzugekommenes Feld nicht aus und meldete deshalb einen korrekten Eintrag als fehlerhaft. |
 | 12.08.2026 | Nachweisform | Neu. Die Einträge tragen jetzt zusätzlich das Verfahren, nach dem sie signiert wurden. Das ist die Vorbereitung darauf, dass Dritte die Signaturen künftig selbst nachrechnen können. |
-| 11.08.2026 | Zugriffsschutz | Behoben. Eine interne Auskunftsfunktion war weiter gefasst als nötig. Sie ist jetzt auf den jeweils eigenen Bestand begrenzt. |
+| 11.08.2026 | Zugriffsschutz | Behoben. Zugriffsrechte präzisiert. |
 | 11.08.2026 | Beglaubigung | Behoben. Der Tagesnachweis wurde auch dann erstellt, wenn die Signaturen nicht geprüft werden konnten. Jetzt entsteht in diesem Fall kein Nachweis. |
 | 11.08.2026 | Erkennung | Neu. Vor jedem Tagesnachweis wird geprüft, ob der zuletzt beglaubigte Stand noch Teil der Kette ist. |
 | 11.08.2026 | Abdeckung | Behoben. Zwei Wege, auf denen Kunden Texte ablegen, sicherten den Nachweis erst nach dem Speichern. Jetzt entsteht kein Text ohne Nachweis. |
@@ -58,11 +63,16 @@ werden kann.
 ## Beginn der Beweiskette
 
 Die Beweiskette beginnt am **10.08.2026**. Alles davor ist Bauphase und kein
-Beweismaterial: Beim Aufbau liefen Belastungstests gegen die Registertabelle
-selbst und hinterließen 52 Testglieder, die am selben Tag entfernt und der
-Zähler zurückgesetzt wurde. Das geschah **vor dem ersten Zeitstempel**, es
-wurde also kein beglaubigter Nachweis entwertet. Seither gilt: nichts wird
-entfernt.
+Beweismaterial.
+
+Was in dieser Bauphase geschah, gehört trotzdem hierher: **Vor dem ersten
+Zeitstempel**, also bevor irgendein Nachweis beglaubigt war, liefen
+Belastungstests gegen die Registertabelle selbst. Sie hinterließen 52
+Testglieder, die noch am selben Tag entfernt und deren Zähler zurückgesetzt
+wurde. Kein beglaubigter Nachweis wurde dabei entwertet, weil es zu diesem
+Zeitpunkt noch keinen gab.
+
+Seither gilt: nichts wird entfernt.
 
 Dass Belastungstests nie wieder gegen die scharfe Registertabelle laufen, ist
 seitdem feste Regel.
