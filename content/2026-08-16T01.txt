@@ -1,0 +1,4 @@
+kette: content
+datum: 2026-08-16T01
+kopf_hash: 898c7d7bf3c2e4bec32bc72593d15491d2ac944af010f29e6c0bd59f15c5ee3d
+ketten_version: v1
