@@ -1,0 +1,4 @@
+kette: image
+datum: 2026-08-16T17
+kopf_hash: 0acc37bf15a25c850a58dff7d9d9ab68af48d5acf2c86b9d91f5fd134d73477d
+ketten_version: v1
