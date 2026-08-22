@@ -18,6 +18,8 @@ Dinge.
 
 | Datum | Kategorie | Ergebnis |
 |---|---|---|
+| 22.08.2026 | Prüfbarkeit | Behoben. Die tägliche Prüfung stützte sich allein auf den internen Stand. Jetzt wird er zusätzlich gegen den hier veröffentlichten Tagesnachweis gehalten. |
+| 16.08.2026 | Abdeckung | Neu. Drittes Register für Bilder, mit eigener Kette und eigenem Tagesnachweis. |
 | 12.08.2026 | Beglaubigung | Behoben. Die Prüfung, ob der zuletzt beglaubigte Stand noch Teil der Kette ist, konnte unbemerkt ausfallen. Jetzt entsteht ohne sie kein Tagesnachweis. |
 | 12.08.2026 | Unveränderlichkeit | Behoben. Der Schutz eines bereits beglaubigten Tagesnachweises stützte sich auf eine einzelne Quelle. Jetzt genügt eine von zweien, um ihn unantastbar zu halten. |
 | 12.08.2026 | Prüfbarkeit | Behoben. Ein Prüfwerkzeug wertete ein neu hinzugekommenes Feld nicht aus und meldete deshalb einen korrekten Eintrag als fehlerhaft. |
