@@ -1,0 +1,4 @@
+kette: image
+datum: 2026-09-02
+kopf_hash: a4f2e8f654bb0719d42d2829b37b8e5ed1fba5b48fcf1b90d270ec406b1d9bd3
+ketten_version: v1
